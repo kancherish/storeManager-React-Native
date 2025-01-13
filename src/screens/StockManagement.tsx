@@ -163,7 +163,6 @@ const styles = StyleSheet.create({
   userInput: {
     borderWidth: 1,
     borderRadius: 13,
-    color:"#313131"
   },
   button1: {
     width: "100%",
