@@ -46,7 +46,7 @@ const Dashboard = (): React.JSX.Element => {
             <View 
               style={[
                 styles.listItem, 
-                item.qty <= 50 
+                item.qty <= 5
                   ? { backgroundColor: "#D84040" } 
                   : { backgroundColor: "#809D3C" }
               ]} 

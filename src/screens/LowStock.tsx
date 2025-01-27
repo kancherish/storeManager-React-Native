@@ -7,7 +7,7 @@ const LowStock = (): React.JSX.Element => {
 
    const data = useAppSelector((state)=>state.stockData)
 
-  const LowData = data.filter((item) => item.qty <= 50)
+  const LowData = data.filter((item) => item.qty <= 5)
 
   return (
     <View style={styles.container}>

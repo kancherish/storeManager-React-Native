@@ -101,7 +101,7 @@ const StockManagement = (): React.JSX.Element => {
         <FlatList
           data={data}
           renderItem={({ item }) => (
-            <View style={[styles.listItem, item.qty <= 50 ? { backgroundColor: "#D84040" } : { backgroundColor: "#809D3C" }]}>
+            <View style={[styles.listItem, item.qty <= 5 ? { backgroundColor: "#D84040" } : { backgroundColor: "#809D3C" }]}>
               <Text style={styles.listItemText}>{item.pname}</Text>
               <Text style={styles.listItemText}>{item.qty}</Text>
               <View style={styles.itemManage}>
@@ -163,6 +163,7 @@ const styles = StyleSheet.create({
   userInput: {
     borderWidth: 1,
     borderRadius: 13,
+    color:"aliceblue"
   },
   button1: {
     width: "100%",
