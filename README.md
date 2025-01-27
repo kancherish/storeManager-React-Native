@@ -2,6 +2,8 @@
 
 A mobile inventory management app built with React Native and TypeScript, designed to help small businesses track their stock offline.
 
+[Download apk](./app-release.apk)
+
 
 ## Features ✨
 - **Offline First:** Full functionality without internet using SQLite
